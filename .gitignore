@@ -1,0 +1,25 @@
+debug.log
+yarn-error.log
+*.tmp.csv
+*.tmp.*
+.~*
+.~lock.*
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+*.big.*
+*.bkp
+# .idea
+vcs.xml
+workspace.xml
+~*
+*.pyc
+**/node_modules/*
+.idea/vcs.xml
+.idea/workspace.xml
+.vscode/.*
+.DS_Store
+\#obecne/credentials.sh
+/Users/kafkat/auth/ga-lmc.oauth
+Thumbs.db

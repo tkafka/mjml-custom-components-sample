@@ -1,0 +1,30 @@
+<mjml>
+
+  <mj-head>
+  </mj-head>
+
+  <mj-body background-color="#19325a" width="680px">
+
+		<mj-section mj-class="section-header section-blue">
+			<mj-column>
+				<lmc-image data-msys-linkname="header" alt="Jobs.cz" css-class="logo-header" src="https://cdn.jsdelivr.net/gh/tkafka/jobs-cz-static/logo-jobs.png" width="90px" height="36px" align="left" href="http://www.jobs.cz/?utm_source=jobs.cz&amp;utm_medium=email&amp;utm_content=agent_user_standard&amp;utm_campaign=system{{ if userIdHash }}&amp;userIdHash={{ userIdHash }}{{ end }}" />
+			</mj-column>
+		</mj-section>
+
+    <mj-section>
+      <mj-column>
+        <mj-text>
+					<p>Hello</p>
+        </mj-text>
+
+				<!-- patched button -->
+				<lmc-button data-msys-linkname="agent-more" href="{{{agentResultLink}}}">
+					More offers
+				</lmc-button>
+				
+			</mj-column>
+		</mj-section>
+		
+  </mj-body>
+
+</mjml>

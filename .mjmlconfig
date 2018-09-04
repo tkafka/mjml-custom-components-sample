@@ -1,0 +1,6 @@
+{
+  "packages": [
+    "mjml-components/lmc-button.compiled.js",
+    "mjml-components/lmc-image.compiled.js"
+  ]
+}
