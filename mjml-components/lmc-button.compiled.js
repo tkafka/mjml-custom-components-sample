@@ -29,7 +29,14 @@ var _class, _temp;
 
 var _mjmlCore = require('mjml-core');
 
+var _mjmlValidator = require('mjml-validator');
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+(0, _mjmlValidator.registerDependencies)({
+  'mj-column': ['lmc-button'],
+  'lmc-button': []
+});
 
 var LmcButton = (_temp = _class = function (_BodyComponent) {
   (0, _inherits3.default)(LmcButton, _BodyComponent);

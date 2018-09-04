@@ -1,4 +1,10 @@
 import { BodyComponent } from 'mjml-core'
+import { registerDependencies } from 'mjml-validator'
+
+registerDependencies({
+  'mj-column': ['lmc-button'],
+  'lmc-button': []
+});
 
 export default class LmcButton extends BodyComponent {
   static endingTag = true

@@ -1,8 +1,14 @@
 import min from 'lodash/min'
 
 import { BodyComponent } from 'mjml-core'
+import { registerDependencies } from 'mjml-validator'
 
 import widthParser from 'mjml-core/lib/helpers/widthParser'
+
+registerDependencies({
+  'mj-column': ['lmc-image'],
+  'lmc-image': []
+});
 
 export default class LmcImage extends BodyComponent {
   static tagOmission = true

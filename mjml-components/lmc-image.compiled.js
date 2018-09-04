@@ -33,11 +33,18 @@ var _min2 = _interopRequireDefault(_min);
 
 var _mjmlCore = require('mjml-core');
 
+var _mjmlValidator = require('mjml-validator');
+
 var _widthParser2 = require('mjml-core/lib/helpers/widthParser');
 
 var _widthParser3 = _interopRequireDefault(_widthParser2);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+(0, _mjmlValidator.registerDependencies)({
+  'mj-column': ['lmc-image'],
+  'lmc-image': []
+});
 
 var LmcImage = (_temp2 = _class = function (_BodyComponent) {
   (0, _inherits3.default)(LmcImage, _BodyComponent);
